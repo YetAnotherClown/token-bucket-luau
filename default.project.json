@@ -1,0 +1,6 @@
+{
+  "name": "token-bucket",
+  "tree": {
+    "$path": "src"
+  }
+}

@@ -1,0 +1,13 @@
+[package]
+name = "yetanotherclown/token-bucket"
+version = "0.1.0"
+description = "A Token Bucket implementation for Luau"
+authors = ["YetAnotherClown"]
+repository = "https://www.github.com/YetAnotherClown/token-bucket-luau"
+license = "MIT"
+homepage = "https://yetanotherclown.github.io/token-bucket-luau"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+exclude = ["*"]
+include = ["wally.toml", "wally.lock", "README.md", "LICENSE.md", "default.project.json", "src", "src/**"]
