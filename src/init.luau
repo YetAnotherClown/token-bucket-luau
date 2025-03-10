@@ -43,7 +43,7 @@ function TokenBucket:add()
 		return
 	end
 
-	self.tokens = math.clamp(self.tokens + self.refillRate, 0, self.capacity)
+	self.tokens = math.min(self.tokens + self.refillRate, self.capacity)
 end
 
 --- Attempts to remove a token. Returns a boolean to represent
