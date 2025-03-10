@@ -1,0 +1,14 @@
+title = "TokenBucket"
+
+[docusaurus]
+tagline = "A TokenBucket implementation for Luau"
+
+[footer]
+style = "dark"
+copyright = "Copyright © 2025 YetAnotherClown. Built with Moonwave and Docusaurus."
+
+[[navbar.items]]
+title = "Discord"
+href = "https://discord.gg/nKCV5fjEvH"
+position = "right"
+className = "discord-logo-link"
